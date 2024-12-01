@@ -1,0 +1,15 @@
+/home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/AdventOfCode
+/home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/AdventOfCode.deps.json
+/home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/AdventOfCode.runtimeconfig.json
+/home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/AdventOfCode.dll
+/home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/AdventOfCode.pdb
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/AdventOfCode.GeneratedMSBuildEditorConfig.editorconfig
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/AdventOfCode.AssemblyInfoInputs.cache
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/AdventOfCode.AssemblyInfo.cs
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/AdventOfCode.csproj.CoreCompileInputs.cache
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/AdventOfCode.dll
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/refint/AdventOfCode.dll
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/AdventOfCode.pdb
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/AdventOfCode.genruntimeconfig.cache
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/ref/AdventOfCode.dll
+/home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/Data/Day1/input.txt
