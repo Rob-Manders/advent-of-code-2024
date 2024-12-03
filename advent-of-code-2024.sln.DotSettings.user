@@ -8,5 +8,6 @@
     &lt;TestId&gt;NUnit3x::A54CED4F-937F-45AC-A317-8066F4AE2315::net9.0::Advent_of_Code_Tests.TestDay1&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::A54CED4F-937F-45AC-A317-8066F4AE2315::net9.0::Advent_of_Code_Tests.TestDay2.TestSafeReports&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::A54CED4F-937F-45AC-A317-8066F4AE2315::net9.0::Advent_of_Code_Tests.TestDay2&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::A54CED4F-937F-45AC-A317-8066F4AE2315::net9.0::Advent_of_Code_Tests.TestDay3.TestMultiplyInputs&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

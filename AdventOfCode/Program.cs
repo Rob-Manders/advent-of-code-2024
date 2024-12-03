@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        string[] input = File.ReadAllLines(Path.Combine(Directory.GetCurrentDirectory(), "Data/Day2/input.txt"));
+        string input = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "Data/Day3/input.txt"));
         
-        Console.WriteLine(Day2.SafeReports(input));
+        Console.WriteLine(Day3.MultiplyInputs(input));
     }
 }
