@@ -105,3 +105,5 @@
 /home/rob/dev/advent-of-code-2024/AdventOfCode_Tests/obj/Debug/net9.0/ref/AdventOfCode_Tests.dll
 /home/rob/dev/advent-of-code-2024/AdventOfCode_Tests/bin/Debug/net9.0/Data/Day1/input.txt
 /home/rob/dev/advent-of-code-2024/AdventOfCode_Tests/bin/Debug/net9.0/Data/Day1/test-input.txt
+/home/rob/dev/advent-of-code-2024/AdventOfCode_Tests/bin/Debug/net9.0/Data/Day2/input.txt
+/home/rob/dev/advent-of-code-2024/AdventOfCode_Tests/obj/Debug/net9.0/AdventOfCode_Tests.sourcelink.json

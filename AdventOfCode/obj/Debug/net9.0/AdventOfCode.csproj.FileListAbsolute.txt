@@ -13,3 +13,5 @@
 /home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/AdventOfCode.genruntimeconfig.cache
 /home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/ref/AdventOfCode.dll
 /home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/Data/Day1/input.txt
+/home/rob/dev/advent-of-code-2024/AdventOfCode/obj/Debug/net9.0/AdventOfCode.sourcelink.json
+/home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/Data/Day2/input.txt

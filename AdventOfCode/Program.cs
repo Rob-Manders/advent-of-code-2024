@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        string[] input = File.ReadAllLines(Path.Combine(Directory.GetCurrentDirectory(), "Data/Day1/input.txt"));
+        string[] input = File.ReadAllLines(Path.Combine(Directory.GetCurrentDirectory(), "Data/Day2/input.txt"));
         
-        Console.WriteLine(Day1.GetSimiliarityScore(input));
+        Console.WriteLine(Day2.SafeReports(input));
     }
 }
