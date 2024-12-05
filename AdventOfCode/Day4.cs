@@ -4,8 +4,6 @@ namespace Advent_of_Code;
 
 public class Day4
 {
-    private static readonly string[] SearchStrings = ["XMAS", "SAMX"];
-
     public static int GetXMasCrossCount(string[] input)
     {
         List<List<char>> grid = CreateGrid(input);
@@ -50,20 +48,12 @@ public class Day4
         {
             string line = "";
 
-            int i = j;
-            int k = 0;
+            int i = j > height ? height : j;
+            int k = j > height ? j - height : 0;
             
-            if (j > height)
-            {
-                i = height;
-                k = j - height;
-            }
-
-            while (i >= 0)
+            while (i >= 0 && k <= width)
             {
                 line += grid[i][k];
-                
-                if (k == width) break;
                 
                 i--;
                 k++;
@@ -77,20 +67,12 @@ public class Day4
         {
             string line = "";
 
-            int i = j;
-            int k = width;
+            int i = j > height ? height : j;
+            int k = j > height ? (height + width) - j : width;
             
-            if (j > height)
-            {
-                i = height;
-                k = (height + width) - j;
-            }
-
-            while (i >= 0)
+            while (i >= 0 && k >= 0)
             {
                 line += grid[i][k];
-                
-                if (k == 0) break;
                 
                 i--;
                 k--;
@@ -105,17 +87,10 @@ public class Day4
     private static int GetVerticalCount(List<List<char>> input)
     {
         List<string> columns = new List<string>();
-        
-        int height = input.Count;
-        int width = input[0].Count;
-
-        for (int i = 0; i < width; i++)
+        for (int i = 0; i < input[0].Count; i++)
         {
             string column = "";
-            for (int j = 0; j < height; j++)
-            {
-                column += input[j][i];
-            }
+            for (int j = 0; j < input.Count; j++) column += input[j][i];
             
             columns.Add(column);
         }
@@ -125,14 +100,12 @@ public class Day4
 
     private static int CountInstancesInLines(List<string> lines)
     {
-        int count = 0;
+        string[] searchStrings = ["XMAS", "SAMX"];
         
-        foreach (string s in SearchStrings)
+        int count = 0;
+        foreach (string s in searchStrings)
         {
-            foreach (string line in lines)
-            {
-                count += new Regex(s).Matches(line).Count;
-            }
+            foreach (string line in lines) count += new Regex(s).Matches(line).Count;
         }
         
         return count;
@@ -141,17 +114,7 @@ public class Day4
     private static List<List<char>> CreateGrid(string[] input)
     {
         List<List<char>> grid = new List<List<char>>();
-
-        foreach (string line in input)
-        {
-            List<char> chars = new List<char>();
-            foreach (char letter in line)
-            {
-                chars.Add(letter);
-            }
-            
-            grid.Add(chars);
-        }
+        foreach (string line in input) grid.Add(line.ToCharArray().ToList());
 
         return grid;
     }
