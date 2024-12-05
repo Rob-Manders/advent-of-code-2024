@@ -4,11 +4,15 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AList_00601_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fb340b8fec8144b3aa7bc3a6d6abaa900d1bc00_003F37_003Fcd2707ab_003FList_00601_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ASafeFileHandle_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fb340b8fec8144b3aa7bc3a6d6abaa900d1bc00_003F23_003Fe8fd885a_003FSafeFileHandle_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AThrowHelper_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fb340b8fec8144b3aa7bc3a6d6abaa900d1bc00_003F5d_003F92860004_003FThrowHelper_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4aaf73e1_002D0b7c_002D4baa_002Dbc28_002Df2b0b7601db7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestGetXMasCount" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f972cfc6_002D752d_002D4f1d_002Db413_002D566898ee4098/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestFixIncorrectPages" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::A54CED4F-937F-45AC-A317-8066F4AE2315::net9.0::Advent_of_Code_Tests.TestDay4&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::A54CED4F-937F-45AC-A317-8066F4AE2315::net9.0::Advent_of_Code_Tests.TestDay5.TestFixIncorrectPages&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
+	
+	
+	
 	
 	
 	

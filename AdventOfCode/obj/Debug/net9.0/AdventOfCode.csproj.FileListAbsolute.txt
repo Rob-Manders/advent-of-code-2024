@@ -18,3 +18,4 @@
 /home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/Data/Day3/input.txt
 /home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/Data/Day4/test-input.txt
 /home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/Data/Day4/input.txt
+/home/rob/dev/advent-of-code-2024/AdventOfCode/bin/Debug/net9.0/Data/Day5/input.txt

@@ -4,8 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        string[] input = File.ReadAllLines(Path.Combine(Directory.GetCurrentDirectory(), "Data/Day4/input.txt"));
+        string[] input = File.ReadAllLines(Path.Combine(Directory.GetCurrentDirectory(), "Data/Day5/input.txt"));
         
-        Console.WriteLine(Day4.GetXMasCrossCount(input));
+        Day5 day5 = new(input);
+        
+        Console.WriteLine(day5.GetCorrectlyOrderedPages());
     }
 }
