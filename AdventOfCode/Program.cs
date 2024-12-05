@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        string input = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "Data/Day3/input.txt"));
+        string[] input = File.ReadAllLines(Path.Combine(Directory.GetCurrentDirectory(), "Data/Day4/input.txt"));
         
-        Console.WriteLine(Day3.MultiplyInputs(input));
+        Console.WriteLine(Day4.GetXMasCrossCount(input));
     }
 }
